@@ -11,6 +11,10 @@ const routes = [
     path: '/responsive',
     component: () => import('../views/Responsive.vue')
   },
+  {
+    path: '/dark',
+    component: () => import('../views/Darkmode.vue')
+  },
 ]
 
 const router = createRouter({
